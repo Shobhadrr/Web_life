@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .html{
+            font-size: 30px;
+        } 
+        .container {
+            /* width: 50vw; */
+            /* height:100vh; */
+            height: 400px;
+            width: 800px;
+            background-color: black;
+            font-size: 5px;
+        }
+
+        .child {
+            /* width: 50%; percentage depand on parent conatiner
+            height: 100%; */
+
+            /* width: 10rem;  always rem depends on root element font size
+            height: 10rem; */
+
+             /* em always depends on parent font size incase parent is not there then it o root element font size in this code
+             it will target container becouse it parent  */
+            width:10em;
+            height:10em;
+            background-color: red;
+
+        }
+    </style>
+</head>
+
+<body>
+    <!-- parent container -->
+    <div class="container">
+        <div class="child">
+        </div>
+    </div>
+</body>
+
+
+</html>

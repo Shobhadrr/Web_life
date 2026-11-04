@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .mainBox {
+            height: 500px;
+            width: 500px;
+            border: 3px solid black;
+
+
+
+        }
+
+        body {
+            justify-content: center;
+            display: flex;
+            width: 100vw;
+            height: 100vh;
+            align-items: center;
+        }
+
+        .childBox {
+            width: 100px;
+            height: 100px;
+            background-color: red;
+            color: white;
+            animation-name: spiderman;
+            animation-duration: 5s;
+            animation-timing-function: ease;
+            animation-timing-function: ease-in;
+            animation-timing-function: ease-out;
+            animation-timing-function: ease-in-out;
+            /* animation-delay: 2s; */
+            /* animation-iteration-count:inherit; */
+            /* animation-iteration-count: 3; */
+            animation-iteration-count: infinite;
+            /* animation-direction: alternate; */
+            animation-direction: alternate-reverse;
+            
+
+        }
+        @keyframes spiderman {
+            /* from{
+                transform: translate(0px,0px);
+            }
+            to{
+                transform: translate(400px,0px);
+            } */
+
+            0%{
+                transform: translate(0px,0px);
+                
+            }
+            25%{
+                transform: translate(400px,0px);
+                background-color: aqua;
+            }
+            50%{
+                transform: translate(400px,400px);
+                background-color: yellow;
+            }
+            75%{
+                transform: translate(0px,400px);
+                background-color: blue;
+            }
+
+            
+        }
+
+           
+
+       
+    </style>
+</head>
+
+<body>
+
+</body>
+<div class="mainBox">
+    <div class="childBox">
+        <b>Box-1<b>
+
+    </div>
+
+</div>
+
+</html>

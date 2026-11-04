@@ -1,0 +1,1 @@
+console.log("hello JS from External JS")

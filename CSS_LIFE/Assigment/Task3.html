@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Box-Model Property</title>
+    <style>
+       
+        body {
+            background-color: white;
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+      
+        h1 {
+            color: #446050;
+            font-size: 32px;
+            font-weight: normal;
+            margin-bottom: 30px;
+        }
+
+       
+        .margin-box {
+            background-color: orange;
+            padding: 60px; 
+            width: 550px;
+        }
+
+       
+        .border-box {
+            background-color: white;
+            padding: 35px; 
+        }
+
+       
+        .padding-box {
+            background-color: white;
+            padding: 40px; 
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+
+       
+        .content-main {
+            background-color: black;
+            color: hotpink;
+            text-align: center;
+            padding: 15px;
+            font-size: 28px;
+            font-weight: bold;
+            letter-spacing: 1px;
+        }
+
+        .content-sub {
+            background-color: black;
+            color: hotpink;
+            text-align: center;
+            padding: 12px;
+            font-size: 15px;
+            line-height: 1.4;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>CSS Box-Model Property</h1>
+
+   
+    <div class="margin-box">
+        <div class="border-box">
+            <div class="padding-box">
+                <div class="content-main">Simplilearn</div>
+                <div class="content-sub">World's #1 Online Certification<br>Course Provider</div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,41 @@
+p {
+    color: red;
+    /* It will specify the color of the text content
+    values : blac(default), any color */
+
+    text-align: justify;
+    /* It will specify the alignment position of the text.
+    values: left/strt(d), right/end, center, justify */
+
+    text-transform: none;
+    /* It will convert the text into differnt cases
+    values: none(d), lowercas, uppercase, capitalized */
+
+    text-indent: 100px;
+    /* It will specify the sapce at initil position
+    values: any number */
+
+    text-decoration-line: underline;
+    /* it will specify the line of the text-decoration
+    values:none(d), underline, overline,line-through(strike) */
+
+    text-decoration-style: dashed;
+    /* It will specify the style of the text-decoration
+    values: solid(d), dotted, dashed,double, wavy */
+
+    text-decoration-color: purple;
+    /* It wil specify the color of the text-decoration
+    values: blac/text-color(deafult), any color */
+
+    text-wrap: wrap;
+    /* It will decide whether do we need to wrap the text into line or not
+    values: wrap(default),nowrap(at single line only it will come) */
+
+    letter-spacing: 5px;
+    /* It will specify the space between the letters
+    values:0px(default),any number */
+
+    word-spacing: 5px;
+    /* It willspecify the space between the words
+    values: 0px(default),any number  */
+}

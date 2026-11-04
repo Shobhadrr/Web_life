@@ -1,0 +1,12 @@
+2. combinatoor selector : it is a combination of 2 selector
+4 types
+1.descendent selector targetall the childerns and grand childerns
+2.direct child selector 
+3.adjacent sibling selector it is target only first right staring of the  element it is main agend of the adjacent
+4.general sibling selector
+
+3.pseudo class selector
+is used to define a special state of an element
+
+
+extarcting any 5 sudo class selctor use in form

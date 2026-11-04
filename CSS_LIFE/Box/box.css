@@ -1,0 +1,27 @@
+div{
+    border: solid blue;
+    margin: 10px;
+    padding: 10px;
+
+
+
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-right: 40px;
+    margin-left: 30px;
+
+
+    margin: 10px 20px 30px 40px;
+    /*       t    r    b     l */
+
+    margin: 10px 20px 30px;
+    /*       t    l&r   b */
+
+    margin: 10px 20px;
+    /*      t&b  l&r */
+
+    margin: 10px;
+    /*      t&b&l&r */
+
+
+}

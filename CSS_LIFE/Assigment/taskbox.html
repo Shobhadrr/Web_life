@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Box Model</title>
+
+    <style>
+
+        body {
+            background-color: white;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 0;
+        }
+
+        .top {
+            color: white;
+            font-weight: bold;
+            margin-top: 20px;
+            margin-bottom: 5px;
+        }
+
+        .left {
+            position: absolute;
+            left: 15%;
+            top: 48%;
+            color: white;
+            font-weight: bold;
+        }
+
+        .right {
+            position: absolute;
+            right: 15%;
+            top: 48%;
+            color: white;
+            font-weight: bold;
+        }
+
+        .bottom {
+            color: white;
+            font-weight: bold;
+            margin-top: 10px;
+        }
+
+
+        /* MARGIN */
+        .margin {
+            width: 570px;
+            height: 350px;
+            background-color: #1edcf5;
+            margin: auto;
+            padding-top: 1px;
+            box-sizing: border-box;
+        }
+
+        .margin-text {
+            color: white;
+            font-size: 22px;
+            font-weight: bold;
+            text-align: left;
+            margin-left: 40px;
+            margin-top: 10px;
+        }
+
+
+        /* BORDER */
+        .border {
+            width: 490px;
+            height: 260px;
+            background-color: #3e444d;
+            margin: 0 auto;
+            padding-top: 1px;
+            box-sizing: border-box;
+        }
+
+        .border-text {
+            color: white;
+            font-size: 22px;
+            font-weight: bold;
+            text-align: left;
+            margin-left: 40px;
+            margin-top: 10px;
+        }
+
+
+        /* PADDING */
+        .padding {
+            width: 410px;
+            height: 180px;
+            background-color: blue;
+            margin: 0 auto;
+            padding-top: 1px;
+            box-sizing: border-box;
+        }
+
+        .padding-text {
+            color: white;
+            font-size: 22px;
+            font-weight: bold;
+            text-align: left;
+            margin-left: 40px;
+            margin-top: 10px;
+        }
+
+
+        /* CONTENT */
+        .content {
+            width: 330px;
+            height: 110px;
+            background-color: orange;
+            margin: 0 auto;
+            margin-top: 5px;
+            box-sizing: border-box;
+            padding-top: 40px;
+            color: white;
+            font-size: 22px;
+            font-weight: bold;
+        }
+
+        .width {
+            color: #e07a7a;
+            font-size: 18px;
+            margin-top: 5px;
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <div class="top">
+        TOP
+    </div>
+
+
+    <div class="left">
+        LEFT
+    </div>
+
+
+    <div class="right">
+        RIGHT
+    </div>
+
+
+    <!-- MARGIN -->
+    <div class="margin">
+
+        <div class="margin-text">
+            MARGIN
+        </div>
+
+
+        <!-- BORDER -->
+        <div class="border">
+
+            <div class="border-text">
+                BORDER
+            </div>
+
+
+            <!-- PADDING -->
+            <div class="padding">
+
+                <div class="padding-text">
+                    PADDING
+                </div>
+
+
+                <!-- CONTENT -->
+                <div class="content">
+                    CONTENT
+
+                    <div class="width">
+                      __________  WIDTH _________
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <div class="bottom">
+        BOTTOM
+    </div>
+
+</body>
+</html>

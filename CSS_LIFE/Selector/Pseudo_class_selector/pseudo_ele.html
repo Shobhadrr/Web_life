@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- in these elemnts mandatry to spaciy content -->
+    <style>
+        h1::first-letter{
+            font-size:150px;
+            color: cadetblue;
+        }
+        p::first-line{
+            color: rgb(223, 129, 7);
+        }
+        p::before{
+            content: "😊";
+            font-size: 80px;
+        }
+        p::after{
+            content: "🌹🌹";
+            font-size: 40px;
+        }
+        p::selection{
+            background-color: bisque;
+            color: red;
+        }
+        li::marker{
+            content: "😎";
+        }
+        input::placeholder{
+            color: green;
+            padding: 5px;
+        }
+    </style>
+</head>
+<body>
+    <form action="">
+        <input type="text" placeholder="enter your name">
+    </form>
+    <ul>
+        <li>list 1</li>
+        <li>list 2</li>
+        <li>list 3</li>
+        <li>list 4</li>
+        <li>list 5</li>
+        <li>list 6</li>
+    </ul>
+    <h1>Shobha</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi modi aperiam vel voluptates odio debitis exercitationem eum beatae, accusantium nulla. Ut quisquam quo soluta pariatur consequuntur laboriosam molestias corporis illo temporibus et, illum sint nulla quis mollitia consectetur unde quod quaerat fuga itaque consequatur iusto aspernatur nisi provident. Quidem placeat optio inventore aperiam. Sint nisi id provident reiciendis doloremque ut pariatur quia architecto assumenda sit dolore veniam, enim maxime rem fuga. Cum necessitatibus doloribus pariatur molestiae iure sit corrupti at ad porro, ducimus ullam aperiam optio perferendis, ab soluta quasi reprehenderit repellendus? Veniam aut delectus omnis doloremque, illo qui ab?</p>
+</body>
+</html>

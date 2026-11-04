@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Flexbox</title>
+
+    <style>
+        .mainCont {
+            width: 900px;
+            height: 500px;
+
+            background-color: orange;
+
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: space-evenly;
+            align-content: flex-start;
+            row-gap: 20px;
+
+        }
+
+        .box {
+            position: relative;
+            bottom: -10px;
+            display: flex;
+            justify-content: flex-start;
+            width: 100px;
+            height: 100px;
+
+        }
+
+        #box1 {
+            background-color: green;
+            width: 400px;
+
+        }
+
+        #box2 {
+            background-color: pink;
+            width: 180px;
+            height: 100px;
+        }
+
+        #box3 {
+            background-color: skyblue;
+            width: 180px;
+            height: 70px;
+        }
+
+        #box4 {
+            background-color: purple;
+            width: 180px;
+            height: 70px;
+        }
+
+        #box5 {
+            background-color: lightgreen;
+            width: 190px;
+            height: 70px;
+        }
+
+        #box6 {
+            background-color: lightslategray;
+            width: 190px;
+            height: 70px;
+        }
+
+        #box7 {
+            background-color: brown;
+            width: 190px;
+            height: 100px;
+        }
+
+        #box8 {
+            background-color: green;
+            width: 300px;
+            height: 100px;
+        }
+
+        #box9 {
+            background-color: pink;
+            width: 500px;
+            height: 100px;
+        }
+
+        .h1 {
+            color: white
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="mainCont">
+
+        <div class="box" id="box1"></div>
+        <div class="box" id="box2"></div>
+        <div class="box" id="box3"></div>
+
+        <div class="box" id="box4"></div>
+        <div class="box" id="box5"></div>
+        <div class="box" id="box6"></div>
+        <div class="box" id="box7"></div>
+
+        <div class="box" id="box8"></div>
+        <div class="box" id="box9"></div>
+
+        <h1>CSS FLEXBOX</h1>
+
+    </div>
+
+</body>
+
+</html>

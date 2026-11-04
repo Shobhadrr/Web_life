@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .mainBox {
+            height: 500px;
+            width: 500px;
+            border: 3px solid black;
+
+
+
+        }
+
+        body {
+            justify-content: center;
+            display: flex;
+            width: 100vw;
+            height: 100vh;
+            align-items: center;
+        }
+
+        .childBox {
+            width: 100px;
+            height: 100px;
+            background-color: red;
+            color: white;
+            /* transform: translateX(300px);
+             transform: translateY(200px);  */
+            /* transform: translate(300px,200px); */
+
+            /* transform: rotateX(20deg);
+            transform: rotateY(20deg); */
+            /* transform: rotate(20deg) ; 2D */
+
+            /* transform: scaleX(5);
+            transform: scaleY(5); */
+            /* transform: scale(4,5); */
+            /* transform: scale(-4,5); */
+
+            /* transform: skewX(20deg);
+            transform: skewY(20deg); */
+            /* transform: skew(20deg,30deg); */
+            /* transform:rotate(20deg); */
+            /* transform-origin: top left; */
+            /* transform-origin: top right;
+             */
+            transition-property: all;
+            transition-duration: 5s;
+              /* border-radius: 50px; */
+            transition-timing-function: ease;
+            transition-timing-function: ease-in;
+            transition-timing-function: ease-out;
+            transition-timing-function: ease-in-out;
+            transition-timing-function: cubic-bezier(0.075,0.82,0.165,1);
+            transition-delay: 3s;
+
+        }
+
+        .childBox:hover {
+            transform: translateX(395px) rotate(180deg);
+            /* transform: translateY(390px) rotate(180deg); */
+            background-color: black;
+          
+        }
+    </style>
+</head>
+
+<body>
+
+</body>
+<div class="mainBox">
+    <div class="childBox">
+        <h1>Box-1</h1>
+
+    </div>
+
+</div>
+
+</html>

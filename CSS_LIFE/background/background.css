@@ -1,0 +1,43 @@
+#box{
+    height: 800px;
+    width: 800px;
+    border: solid;
+
+background-color: bisque;
+/* IT will specify the backgoude color of an element
+values:white(d),any color */
+
+background-image: url(https://i.pinimg.com/236x/42/4c/1e/424c1e66e609114e8fd656ee8019327c.jpg);
+
+background-repeat:no-repeat;
+/* It will specify the reporting pattern of a background image
+values: repeat(d),repeat-x,repeat-y,no-repeat */
+
+background-position-x: center;
+/* it will specify the position of background image w.r.to x-axis. 
+values: left(d),center,right */
+
+background-position-y: bottom;
+/* it will specify the position of background image w.r.to y-axis. 
+values: top(d),center,bottom*/
+
+
+
+background-position: center bottom;
+background-position: right bottom;
+background-position: center center;
+background-position: center;
+background-position: top left;
+
+}
+
+body{
+    background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3KPPTaMiPbUJsNuYHdzX0n2dSZBYjOpjcGPhswtNBlysmkkd97IjruLxK&s=10)no-repeat;
+    background-size: cover; 
+    color: black; 
+    background-attachment: scroll;  
+    background-attachment:fixed ;
+    
+    
+    
+}
