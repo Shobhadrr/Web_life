@@ -105,7 +105,7 @@
 // console.log(array.slice(-2,-3));
 
 //& 6. splice():
-let array = [10, 20, 30, 40, 50]
+// let array = [10, 20, 30, 40, 50]
 // let DeletedData = array.splice(1,2,"hello","good","hii")// index,arguments,count in splice  we can no of eleements
 // let DeletedData = array.splice(1,0,"somu","rani","raju")// extistng data also and addig data also there
 // console.log("DeletedData"+DeletedData);
@@ -161,11 +161,114 @@ let array = [10, 20, 30, 40, 50]
 // }
 
 //&16.every()
-let arr1=[2,4,6]
-let data = ['red','white','green','undefined']
-// console.log(arr1.every((num)=>num%2 == 0));//true
-console.log(data.every((data)=>data === undefined));//false
-console.log(data.every((data)=>data !== undefined));//true
+// let arr1=[2,4,6]
+// let data = ['red','white','green','undefined']
+// // console.log(arr1.every((num)=>num%2 == 0));//true
+// console.log(data.every((data)=>data === undefined));//false
+// console.log(data.every((data)=>data !== undefined));//true
+
+//& 17 some():method checks whther atleast  one elemnt in an array satisfies a given condition
+// let arr =[1,2,3,4,5,6]
+// console.log(arr.some((num)=>num>5));//true
+
+// let arr =[1,2,3,4,5] you give like this it is false
+
+//&18. fill():modify the original array only
+// let array = [1,2,3,4,5]
+// console.log(array.fill("somu",0,3)); // value,starting index ,ending index
+// console.log(array);
+
+//&19 find():it return first element in array that satisfies the given condition
+// let array = [1,2,3,4,5]
+// console.log(array.find((num)=>num>4));//5
+
+//&20 findIndex(): the element which satisfies the condition that index will be given
+// let array = [1,2,3,4,5,6,7,8]
+// console.log(array.findIndex((num)=>num>6));//6
+
+//&21. findLast():
+// let array = [1,2,3,4,5,6,7]
+// console.log(array.findLast((num)=>num>4));//7
+
+//&22.findLastIndex()
+// let array = [1,2,3,4,5,6]
+// console.log(array.findLastIndex((num)=>num>4));//5 it give last value index no 
+
+//&23. flat():this method is used to convert a nested array into a single-level array
+// let data = [1,2,3,4,[10,20,[30,50]]] 
+// console.log(data.flat(2));
+
+// let data1 = [1,2,3,4,[10,20,[100,200,300]]]
+// // console.log(data[4]);
+// console.log(data.flat(Infinity));
+
+//simple example
+// let a=[1,2,[3,4],[5,6]];
+// console.log(a.flat());//[ 1, 2, 3, 4, 5, 6 ]
+
+//&24 .toReversed :
+// let data=[1,2,3,4,5]
+// console.log(data.reverse());
+// console.log(data);
+//output
+// [ 5, 4, 3, 2, 1 ]
+// [ 5, 4, 3, 2, 1 ]
+
+// console.log(data.toReversed());
+// console.log(data);
+//output
+// [ 5, 4, 3, 2, 1 ]
+// [ 1, 2, 3, 4, 5 ]
+
+//&25. tospliced
+// let array=[1,2,3,4,5,6]
+// console.log(array.toSpliced(2));//[ 1, 2 ]
+// console.log(array);//[ 1, 2, 3, 4, 5, 6 ]
+
+//&26.toString
+// let array1=[1,2,3,4,5,6]
+// console.log(array1.toString());
+// console.log(array1);
+
+//&27. sort()
+// let data = [1,8,9,3,2]
+//out [ 1, 2, 3, 8, 9 ]
+// let colors = ["green","white","black","red"]
+//out [ 'black', 'green', 'red', 'white' ]
+// console.log(data.sort());
+// console.log(colors.sort());
+
+let data = [1,8,3,10,20]//[ 1, 10, 20, 3, 8 ]
+// console.log(data.sort());
+console.log(data.sort(function(a,b){
+    return a-b
+}))//[ 1, 3, 8, 10, 20 ]
+// console.log(data.sort((a,b)=>a-b));//[ 1, 3, 8, 10, 20 ]
+// console.log(data.sort((a,b)=>b-a));//[ 20, 10, 8, 3, 1 ]
+
+//&28.toSorted()
+
+let data1 = [1,8,3,10,20]
+console.log(data1.toSorted());
+console.log(data1.toSorted((a,b)=>a-b));
+console.log(data1.sort(function(a,b){
+    return a-b
+}))
+
+//& copymethod
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
