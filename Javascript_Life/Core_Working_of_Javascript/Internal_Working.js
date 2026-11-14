@@ -31,15 +31,111 @@
 // print()
 
 //!ex-2
-console.log(data);
+// console.log(data);
+// function print(){
+//     let name = 'rani'
+//     console.log(data);
+//     console.log(name);
+// }
+// var data="somu"
+// console.log(data);
+// print()
+
+//! ex 3 
+// console.log(data);
+// printFun()//here the undefined() is called as the function
+// var printFun = function print(){
+//     let name = 'rani'
+//     console.log(data);
+//     console.log(name);
+// }
+// var data = "somu"
+// console.log(data); //out :TypeError: printFun is not a function
+
+//*3.1 ex
+// console.log(data);
+// printFun() 
+// let printFun = function print(){
+//     let name = 'rani'
+//     console.log(data);
+//     console.log(name);
+// }
+// var data = "somu"
+// console.log(data);// out ReferenceError: Cannot access 'printFun' before initialization
+
+//*3.2 ex
+// console.log(data); 
+// let printFun = function print(){
+//     let name = 'rani'
+//     console.log(data);
+//     console.log(name);
+// }
+// var data = "somu"
+// console.log(data);
+// printFun()
+
+//out:
+// undefined
+// somu
+// somu
+// rani
+
+//! example of global scope
+// console.log(data);
+// function print(){
+//     let name = 'shobha'    
+//     console.log(data);
+//     console.log(name);
+// }
+// var data = "somu"
+// console.log(data);
+// print()
+
+//out
+// undefined
+// somu
+// somu
+// shobha
+
+//! ex--o
+// let x=10
+// function print(){
+//     x=20
+//     console.log(x);
+    
+// }
+// print()
+// console.log(x); //20 20
+
+//ex--
+let x=10
 function print(){
-    let name = 'rani'
-    console.log(data);
-    console.log(name);
+     let x=20
+    console.log(x);
+    
 }
-var data="somu"
-console.log(data);
 print()
+console.log(x);//20 10
+
+
+//!exmaple of function scope
+// console.log(data);
+// function print(){
+//     var name = "rani"
+//     console.log(data);
+// }
+// print()
+// console.log(name);
+// var data = "somu"
+// console.log(data); //ReferenceError: name is not defined
+
+
+
+
+
+
+
+
 
 
 
