@@ -108,14 +108,14 @@
 // console.log(x); //20 20
 
 //ex--
-let x=10
-function print(){
-     let x=20
-    console.log(x);
+// let x=10
+// function print(){
+//      let x=20
+//     console.log(x);
     
-}
-print()
-console.log(x);//20 10
+// }
+// print()
+// console.log(x);//20 10
 
 
 //!exmaple of function scope
@@ -129,6 +129,56 @@ console.log(x);//20 10
 // var data = "somu"
 // console.log(data); //ReferenceError: name is not defined
 
+
+// console.log(data);
+
+// function print() {
+//     console.log(print);
+// }
+
+// let data = "somu";
+
+// console.log(data);
+
+// print();
+
+//! Block scope
+// let flag = true
+//  if(flag){
+//     let data =100
+//     console.log("value of data is" + data);
+// }
+// else{
+//     let data =200
+//     console.log("value of data is" + data);
+// }
+// console.log(data); // get error like ReferenceError: data is not defined
+
+
+//! using var keyword in  block scope
+// let flag = true
+//  if(flag){
+//     var data =100
+//     console.log("value of data is" + data);
+// }
+// else{
+//     var data =200
+//     console.log("value of data is" + data); //value of data is100
+// }
+
+//! Scope Chaninig
+let data1= "somu"
+function outerFunction(){
+    let data2 = "rani"
+    function innerFunction(){
+        let data3= "Raja"
+        console.log(data1);
+        console.log(data2);
+        console.log(data3);     
+    }
+    innerFunction()
+}
+outerFunction()
 
 
 
