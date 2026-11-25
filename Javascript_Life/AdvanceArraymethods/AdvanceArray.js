@@ -1,4 +1,4 @@
-//^ 1.map()
+// //^ 1.map()
 // let array=[1,2,3,4,5]
 
 // function multiply(x){
@@ -115,9 +115,8 @@
 // console.log(newdata);//155
 
 //& find out the sum of  all the even number of arrays
-
-let data=[1,2,3,4,5]
-console.log(data.filter(item => item%2==0).reduce((acc,cur)=>acc+cur)) //6
+// let data=[1,2,3,4,5]
+// console.log(data.filter(item => item%2==0).reduce((acc,cur)=>acc+cur)) //6
 
 
 
