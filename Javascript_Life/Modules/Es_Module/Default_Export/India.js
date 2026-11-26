@@ -15,7 +15,7 @@ let { toys, toys1 } = Object;
 console.log(toys);
 console.log(toys1);
 
- // but destructuring cnn be donne in this format
+ // but destructuring can be donne in this format
 
 // output
 // Bikes
